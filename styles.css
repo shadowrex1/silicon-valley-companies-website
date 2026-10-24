@@ -1,0 +1,12 @@
+body {
+    background-color:black;
+    font-family: Verdana;
+}
+
+p, a, h1, h2, h3, figcaption {
+    color:white;
+}
+
+footer, figcaption {
+    font-style:italic;
+}
