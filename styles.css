@@ -1,12 +1,81 @@
 body {
     background-color:black;
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
 }
 
-p, a, h1, h2, h3, figcaption {
+#infos {
+    background-color: #0f0f0f;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+h1, h3 {
     color:white;
 }
 
 footer, figcaption {
     font-style:italic;
 }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+figcaption {
+    color: grey;
+    font-size: small;
+}
+
+section {
+    padding-bottom: 25px;
+}
+
+hr {
+    border:none;
+    height: 1px;
+    background-color: #4e4e4e;
+    margin-top: 15px;
+}
+
+/* isso aqui pra baixo é pra deixar centralizado, se quiser voltar ao lado esquerdo normal só apagar */
+
+h1, h2, h3, figcaption, nav {
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+p {
+    text-align: center;
+    color:white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* até aqui!!!!!! */
+
