@@ -14,7 +14,20 @@ body {
 }
 
 nav {
-    margin-top: 10px;
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1500;
+    border-bottom: 2.5px solid #1d1d1d
+}
+
+#nav a {
+    text-decoration: none;
 }
 
 h1, h3 {
@@ -53,7 +66,10 @@ hr {
     margin-top: 15px;
 }
 
-/* isso aqui pra baixo é pra deixar centralizado, se quiser voltar ao lado esquerdo normal só apagar */
+html {
+    scroll-behavior: smooth;
+}
+
 
 h1, h2, h3, figcaption, nav {
     text-align: center;
@@ -77,5 +93,10 @@ p {
     margin: 0 auto;
 }
 
-/* até aqui!!!!!! */
+#top {
+    scroll-margin-top: 120px;
+}
 
+#apple, #microsoft, #google, #meta, #nvidia, #intel, #paypal, #openai {
+    scroll-margin-top: 80px;
+}
